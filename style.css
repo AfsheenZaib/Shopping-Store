@@ -1,0 +1,129 @@
+#div1{
+  height:35px;
+  width:1245px;
+  background-color:rgb(167, 77, 92);
+  border:2.5px solid #450920;
+  margin-top:10px;
+  
+}
+body{
+  background-color:rgb(228, 167, 176);
+}
+#logo{
+  font-size:20px;
+  margin-left:5px;
+  margin-top:25px;
+  color:#f9dbbd;
+}
+a{
+  color:#f9dbbd;
+  margin-right:170px;
+}
+#contact{
+  color:#f9dbbd;
+  margin-right:50px:
+}
+button{
+  background-color:beige;
+  color:black;
+ 
+}
+#divmid{
+  height:75px;
+  width:500px;
+  background-color:#450920;
+  margin-top:70px;
+  margin-left:300px;
+  text-align:center;
+  font-size:40px;
+  padding-left:115px;
+  padding-top:20px;
+  border:2px solid beige
+}
+  #shopping{
+    text-align:center;
+    color:beige;
+    font-family:Arial, Helvetica, sans-serif
+  }
+#divmid2{
+  height:20px;
+  width:150px;
+  background-color:beige;
+  margin-left:370px;
+  margin-top:50px; 
+  color:black;
+  font-size:20px;
+  text-align:center;
+  padding:10px;
+  font-weight:bold;
+  font-family:sans-serif;
+  border: 3px 
+}
+#div2{
+  height: 70px;
+  width:400px;
+  background-color:rgba(255, 255, 255, 0.674);
+  border:2px solid #450920;
+
+  margin-top:40px;
+  margin-left:385px;
+  /* border-radius:20px; */
+  padding:25px;
+  #U1{
+    font-size:15px;
+    font-weight:bold;
+    color:black;
+    font-family:sans-serif;
+  }
+  #username{
+    height:35px;
+    width:380px;
+    margin-top:15px;
+    background-color:#fad1db;
+  }
+}
+  #div3{
+    height: 70px;
+  width:400px;
+  background-color:rgba(255, 255, 255, 0.674);
+  border:2px solid #450920 ;
+  margin-top:1px;
+  margin-left:385px;
+  /* border-radius:20px; */
+  padding:25px;
+   
+  }
+  #P1{
+    font-size:15px;
+    font-weight:bold;
+    color:black;
+    font-family:sans-serif;
+    padding-top:10px
+  
+  }
+  #password{
+    text-emphasis-color: black;
+    height:35px;
+    width:380px;
+    margin-top:15px;
+    background-color:#fad1db;
+  }
+
+
+
+/* #loginpage{
+  color:black;
+  margin-left:555px;
+  font-size:20px;
+  font-weight:bold;
+  text-decoration:underline;
+  font-family:Arial, Helvetica, sans-serif
+} */
+/* #username{
+  color:black;
+  text-align:left;
+}
+#button{
+  height:30px;
+  width:50px;
+} */
