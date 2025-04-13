@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amazon Clone</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
+</head>
+<body class="bg-gray-100">
+
+  <!-- Navbar -->
+  <header>
+    <div class="flex items-center bg-gray-900 text-white p-2 space-x-4">
+      <div class="border p-1 cursor-pointer">
+        <div class="w-24 h-8 text-center bg-cover" style="background-image: url('amazon_logo.png') "></div>
+      </div>
+
+      <div class="border p-1 cursor-pointer">
+        <p class="text-xs">Deliver to</p>
+        <div class="flex items-center space-x-1">
+          <i class="fa-solid fa-location-dot"></i>
+          <p class="text-sm font-semibold">Pakistan</p>
+        </div>
+      </div>
+
+      <div class="flex flex-1">
+        <select class="p-2 rounded-l bg-gray-200 text-gray-700 text-sm">
+          <option>All</option>
+        </select>
+        <input placeholder="Search Amazon" class="flex-1 p-2 text-black">
+        <div class="bg-yellow-400 p-2 rounded-r cursor-pointer">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+      </div>
+
+      <div class="border p-1 cursor-pointer">
+        <p class="text-xs">Hello, Sign in</p>
+        <p class="text-sm font-semibold">Account & Lists</p>
+      </div>
+
+      <div class="border p-1 cursor-pointer">
+        <p class="text-xs">Returns</p>
+        <p class="text-sm font-semibold">& Orders</p>
+      </div>
+
+      <div class="border p-1 cursor-pointer flex items-center space-x-1">
+        <i class="fa-solid fa-cart-shopping"></i>
+        <span>Cart</span>
+      </div>
+    </div>
+
+    <!-- Panel -->
+    <div class="flex items-center bg-gray-800 text-white text-sm p-2 space-x-4">
+      <div class="flex items-center space-x-1 cursor-pointer">
+        <i class="fa-solid fa-bars"></i>
+        <span>All</span>
+      </div>
+      <p class="cursor-pointer">Today's Deals</p>
+      <p class="cursor-pointer">Prime Video</p>
+      <p class="cursor-pointer">Registry</p>
+      <p class="cursor-pointer">Customer Service</p>
+      <p class="cursor-pointer">Gift Cards</p>
+      <p class="cursor-pointer">Sell</p>
+    </div>
+
+    <div class="bg-yellow-300 text-center text-sm p-3">
+      You are on a Amazon.com. You can also shop on Amazon Pakistan with millions of products and fast local delivery.
+      <a class="text-blue-600 cursor-pointer">Click here to go on amazon.in</a>
+    </div>
+  </header>
+
+  <!-- Shop Section -->
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 p-4">
+
+    <div class="bg-white p-4 cursor-pointer">
+      <h2 class="font-bold text-lg mb-2">Skincare products</h2>
+      <div class="h-40 bg-center bg-cover" style="background-image: url('box1.img.jpg')"></div>
+      <p class="text-blue-600 mt-2">Shop now</p>
+    </div>
+
+    <div class="bg-white p-4 cursor-pointer">
+      <h2 class="font-bold text-lg mb-2">Comfortable Shoes</h2>
+      <div class="h-40 bg-center bg-cover" style="background-image: url('box2.jpg')"></div>
+      <p class="text-blue-600 mt-2">Shop now</p>
+    </div>
+
+    <div class="bg-white p-4 cursor-pointer">
+      <h2 class="font-bold text-lg mb-2">Home Decor</h2>
+      <div class="h-40 bg-center bg-cover" style="background-image: url('box3-img.jpg')"></div>
+      <p class="text-blue-600 mt-2">Shop now</p>
+    </div>
+
+    <div class="bg-white p-4 cursor-pointer">
+      <h2 class="font-bold text-lg mb-2">Peptide Lip tints</h2>
+      <div class="h-40 bg-center bg-cover" style="background-image: url('box4-img.jpg')"></div>
+      <p class="text-blue-600 mt-2">Shop now</p>
+    </div>
+
+    <div class="bg-white p-4 cursor-pointer">
+      <h2 class="font-bold text-lg mb-2">Smart Watches</h2>
+      <div class="h-40 bg-center bg-cover" style="background-image: url('box5-img.jpg')"></div>
+      <p class="text-blue-600 mt-2">Shop now</p>
+    </div>
+
+    <div class="bg-white p-4 cursor-pointer">
+      <h2 class="font-bold text-lg mb-2">Top Mobile Phones</h2>
+      <div class="h-40 bg-center bg-cover" style="background-image: url('box6-img.jpg')"></div>
+      <p class="text-blue-600 mt-2">Shop now</p>
+    </div>
+
+    <div class="bg-white p-4 cursor-pointer">
+      <h2 class="font-bold text-lg mb-2">Books</h2>
+      <div class="h-40 bg-center bg-cover" style="background-image: url('box7-image.jpg')"></div>
+      <p class="text-blue-600 mt-2">Shop now</p>
+    </div>
+
+    <div class="bg-white p-4 cursor-pointer">
+      <h2 class="font-bold text-lg mb-2">Classic Speakers</h2>
+      <div class="h-40 bg-center bg-cover" style="background-image: url('box8-img.jpg')"></div>
+      <p class="text-blue-600 mt-2">Shop now</p>
+    </div>
+
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="bg-gray-800 text-white text-center p-4 text-sm cursor-pointer">Back to top</div>
+
+    <div class="bg-gray-900 text-white grid grid-cols-2 md:grid-cols-4 gap-4 p-6 text-sm">
+      <div>
+        <p class="font-bold mb-2">Get to Know Us</p>
+        <a class="block cursor-pointer">Careers</a>
+        <a class="block cursor-pointer">Blog</a>
+        <a class="block cursor-pointer">About Amazon</a>
+        <a class="block cursor-pointer">Investor Relations</a>
+        <a class="block cursor-pointer">Amazon Devices</a>
+        <a class="block cursor-pointer">Amazon Science</a>
+      </div>
+
+      <div>
+        <p class="font-bold mb-2">Make Money with Us</p>
+        <a class="block cursor-pointer">Sell products on Amazon</a>
+        <a class="block cursor-pointer">Sell on Amazon Business</a>
+        <a class="block cursor-pointer">Sell apps on Amazon</a>
+        <a class="block cursor-pointer">Become an Affiliate</a>
+        <a class="block cursor-pointer">Advertise Your Products</a>
+        <a class="block cursor-pointer">Self-Publish with Us</a>
+        <a class="block cursor-pointer">Host an Amazon Hub</a>
+        <a class="block cursor-pointer">› See More Make Money with Us</a>
+      </div>
+
+      <div>
+        <p class="font-bold mb-2">Amazon Payment Products</p>
+        <a class="block cursor-pointer">Amazon Business Card</a>
+        <a class="block cursor-pointer">Shop with Points</a>
+        <a class="block cursor-pointer">Reload Your Balance</a>
+        <a class="block cursor-pointer">Amazon Currency Converter</a>
+      </div>
+
+      <div>
+        <p class="font-bold mb-2">Let Us Help You</p>
+        <a class="block cursor-pointer">Amazon and COVID-19</a>
+        <a class="block cursor-pointer">Your Account</a>
+        <a class="block cursor-pointer">Your Orders</a>
+        <a class="block cursor-pointer">Shipping Rates & Policies</a>
+        <a class="block cursor-pointer">Returns & Replacements</a>
+        <a class="block cursor-pointer">Manage Your Content and Devices</a>
+        <a class="block cursor-pointer">Help</a>
+      </div>
+    </div>
+
+    <div class="bg-gray-800 text-white text-xs flex flex-col items-center p-4 space-y-2">
+      <div class="flex space-x-4">
+        <a class="cursor-pointer">Conditions of Use</a>
+        <a class="cursor-pointer">Privacy Notice</a>
+        <a class="cursor-pointer">Your Ads Privacy Choices</a>
+      </div>
+      <div>© 1996-2025, Amazon.com, Inc. or its affiliates</div>
+    </div>
+  </footer>
+
+</body>
+</html>
