@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="My Portfolio showcasing my web development projects.">
+    <title>Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style> -->
+</head>
+<body class="bg-gray-100 text-gray-900">
+
+    <!-- Navbar -->
+    <nav class="bg-gray-800 text-white flex justify-between p-4">
+        <h1 class="text-xl font-bold">My Portfolio</h1>
+        <ul class="flex space-x-4">
+            <li><a href="#home" class="hover:underline">Home</a></li>
+            <li><a href="#about" class="hover:underline">About</a></li>
+            <li><a href="#projects" class="hover:underline">Projects</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="flex items-center justify-center h-screen text-center bg-gray-200 p-4">
+        <div>
+            <h2 class="text-3xl font-bold">Welcome to My Portfolio!</h2>
+            <p class="mt-2 text-lg">Discover my journey and projects  as a Computer Science Student.</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="p-8 text-center bg-gray-800">
+        <h2 class="text-2xl font-bold text-white">About Me</h2>
+        <p class="mt-2 text-white" >I am a Computer Science Student, learning the course of Web Development!</p>
+    </section>
+
+     <!-- Projects Section -->
+     <section id="projects" class="p-8">
+        <h2 class="text-2xl font-bold text-center">Projects</h2>
+         <div class="grid md:grid-cols-2 "gap-4 mt-4> 
+            <div class="bg-white p-4 shadow-md rounded-md hover:scale-105 transition">
+                <h3 class="text-lg font-bold mt-2">Project 1:</h3><br>
+                    <h2>My Amazon Website</h2><br>
+                <img src="amazon.jpg" alt="Project 1" class="w-full rounded-md">
+                <br>
+                <p>- This is a clone of the Amazon homepage, created with HTML, CSS, and JavaScript. It features product listings and a cart system.</p>
+            </div>
+            <div class="bg-white p-4 shadow-md rounded-md hover:scale-105 transition">
+                <h3 class="text-lg font-bold mt-2">Project 2:</h3><br>
+                <h2 >Netflix</h2><br>
+                <img src="netflix.jpg" alt="Project 2" class="w-full rounded-md"><br>
+                 <p>- On Netflix enjoy watching movies,series and cartoons.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 p-4 text-white text-center mt-8">
+        <p>Let's Stay connected: 
+            <a href="https://www.linkedin.com" class="underline" target="_blank" aria-label="LinkedIn Profile">LinkedIn</a> | 
+            <a href="https://github.com" class="underline" target="_blank" aria-label="GitHub Profile">GitHub</a>
+        </p>
+    </footer>
+
+</body>
+</html>
